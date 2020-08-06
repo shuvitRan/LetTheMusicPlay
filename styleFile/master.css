@@ -1,0 +1,62 @@
+/* # */
+button {
+  color:white;
+-webkit-animation: fadein 2s;
+  /* margin-left: 5%; */
+  /* margin: 30px 20px; */
+  width: 200px;
+
+  line-height: 30px;
+  /* background-color: rgba(255,255,255,.5); */
+  /* background-color: transparent; */
+  background-color: rgb(20, 0, 10,.5);
+
+  border-style: solid;
+  border-width: 2px;
+ border-color:rgb(204, 48, 118);
+  /* border-color: rgb(195, 195, 195); */
+  outline:none;
+  border-radius: 10px;
+  transition: 2s;
+  font-weight: bold;
+
+
+
+
+}
+
+button:hover{
+  color:white;
+
+  background-color: rgba(10, 10, 10, .8)  !important;
+  /* background-color: transparent; */
+  background-color: rgb(20, 10, 15,.5);
+  /* border:  none; */
+  border-color:rgb(173, 48, 204);
+  /* border-color: rgb(255, 255, 255); */
+  border-radius: 25px;
+  cursor: pointer ;
+  /* line-height: 35px; */
+  /* width: 205px; */
+
+
+}
+
+
+ .infoButton{
+   border-color:white;
+   background-color: rgb(20, 0, 10,.1);
+   width: 80px;
+   /* text-align: left; */
+   line-height: 25px;
+  /* border:  none !important; */
+  -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
+
+
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
